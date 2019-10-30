@@ -2,9 +2,11 @@
 
 This project uses methods from Topology to classify handwritten letters. Using Persistent Homology we're able to...
 
-## Persistent Homology
+## Introduction
 
-## Scans
+### Persistent Homology
+
+### Scans
 
 ## Getting Started
 
@@ -46,7 +48,7 @@ for y in range(26):
 
 Here you can see we specificed the noisePercent = 0.02, and numberofGuesses = 50.
 
-### Optimization of the Model
+## Optimization of the Model
 
 Originally, our model ran with 8 scans, and record the values of total number of classes, and average length of classes. However, as we added more scans, we noticed that accuracy, especially for specific letters such as A, D, O, and Y went down. Through the simple gumshoe move of testing each scan individually, then each pair of scans individually, each 3-tuple of scans, etc. we removed scans that were not contributing to our model.
 
