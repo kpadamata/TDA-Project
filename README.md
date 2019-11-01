@@ -4,7 +4,28 @@ This project uses methods from Topology to classify handwritten letters. Using P
 
 ## Introduction
 
-### Persistent Homology
+This project primarily helps in understanding the challenges offered by the natural data, suggesting the need of topology, and in particular of the persistence homology.
+On the whole, it will give you an idea of different methods/tools used for identification of handwritten letters and the conclusions
+Before getting started, let’s get familiarize with few methods/tools that have been used in this project.
+
+### Persistent Homology:
+
+### Ripser:
+Ripser.py is a lean persistent homology package for Python.
+It is useful for
+ •	Computing persistent cohomology on sparse and dense data.
+ •	Visualizing persistence diagrams.
+ •	computing lowerstar image filtrations.
+In our project, we used ripser to visualize the persistence diagrams and compute lowerstar filtration.
+
+### Lower Star Image Filtration:
+Is a function which allow us to represent local minimums/maximums to be birth times and saddle points to be the death times in 0-dimensional persistent diagram. It is very useful in finding the critical points in an image. It is mainly used to constructs a sparse distance matrix.
+
+### Dataset:
+The handwritten letters written in a 10x10 square board (100 pixels) are used to create the dataset where we considered the pixel value to be 0 - if there is no part of the letter in the pixel and 1 otherwise for each letter. Also an index value has been assigned for each letter.
+
+#### Sample: Data of letter ‘i’ from dataset.(Index value: 9)
+9,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
 ### Scans
 
