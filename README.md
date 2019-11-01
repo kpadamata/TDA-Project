@@ -27,7 +27,7 @@ The handwritten letters written in a 10x10 square board (100 pixels) are used to
 #### Sample: Data of letter ‘i’ from dataset.(Index value: 9)
 9,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 
-### Scans
+### Scans:
 
 ## Getting Started
 
