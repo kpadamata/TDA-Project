@@ -1,12 +1,12 @@
 # Identification of Handwritten Letters Using Persistent Homology
 
-This project uses methods from Topology to classify handwritten letters. Using Persistent Homology we're able to...
+This project uses methods from Topology to classify handwritten letters. Using Persistent Homology we're able to identify the letter from a spare data.
 
 ## Introduction
 
-This project primarily helps in understanding the challenges offered by the natural data, suggesting the need of topology, and in particular of the persistence homology.
+It primarily helps in understanding the challenges offered by the natural data, suggesting the need of topology, and in particular of the persistence homology.
 On the whole, it will give you an idea of different methods/tools used for identification of handwritten letters and the conclusions
-Before getting started, let’s get familiarize with few methods/tools that have been used in this project.
+Before getting started, let’s get familiarize with few methods/tools and dataset that have been used in this project.
 
 ### Persistent Homology:
 
